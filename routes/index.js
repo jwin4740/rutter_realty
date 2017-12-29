@@ -87,11 +87,8 @@ router.post('/mailpost', function (req, res) {
     var fullName = req.body.fullName;
     var phoneNumber = req.body.phoneNumber;
     var email = req.body.email;
-    var eMessage = req.body.eMessage;
 
-    //var token = req.body.token;
-    //var geo = req.body.geo;
-    console.log(req.body.email);
+    console.log(req.body);
 
 
     // create reusable transport method (opens pool of SMTP connections)
@@ -99,8 +96,8 @@ router.post('/mailpost', function (req, res) {
         host: "smtp.gmail.com",
         port: 587,
         auth: {
-            user: process.env.GMAIL_USER,
-            pass: process.env.GMAIL_PASS
+            user: 'ncmarys.way',
+            pass: 'annWin47'
         }
     });
 
@@ -109,7 +106,7 @@ router.post('/mailpost', function (req, res) {
         from: `${fullName} <${email}>`, // sender address
         to: "jwin4740@gmail.com", // list of receivers
         subject: "Contact form submitted", // Subject line
-        text: eMessage // plaintext body
+        text: "yo whatup"
     }
 
     // send mail with defined transport object
@@ -117,7 +114,7 @@ router.post('/mailpost', function (req, res) {
         if (error) {
             console.log(error);
         } else {
-            console.log("Message sent: " + response.message);
+            console.log("Message sent");
         }
         // if you don't want to use this transport object anymore, uncomment following line
         //smtpTransport.close(); // shut down the connection pool, no more messages
