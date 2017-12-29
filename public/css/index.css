@@ -1,0 +1,6 @@
+html, body {
+    overflow: hidden;
+    /*background-image: url("../images/clouds_poster.png");*/
+    /*background-size: contain;*/
+    background: transparent;
+}

@@ -1,0 +1,50 @@
+{
+  "james": {
+    "username": "root",
+    "password": "root",
+    "host": "localhost",
+    "port": "3306",
+    "dialect": "mysql",
+    "database": "rrealty"
+  },
+  "caroline": {
+    "username": "root",
+    "password": "root",
+    "host": "localhost",
+    "port": "8889",
+    "dialect": "mysql",
+    "database": "marys_way"
+  },
+  "dale": {
+    "username": "root",
+    "password": "root",
+    "host": "localhost",
+    "port": "8889",
+    "dialect": "mysql",
+    "database": "marys_way"
+  },
+  "trevor": {
+    "username": "root",
+    "password": "root",
+    "host": "localhost",
+    "port": "3306",
+    "dialect": "mysql",
+    "database": "marys_way"
+  },
+  "evgheni": {
+    "username": "root",
+    "password": "root",
+    "host": "localhost",
+    "port": "3306",
+    "dialect": "mysql",
+    "database": "marys_way"
+  },
+  "devserver": {
+    "username": "mway",
+    "password": "mway@uncC6a",
+    "host": "173.230.140.34",
+    "port": "3306",
+    "dialect": "mysql",
+    "database": "rrealty"
+  }
+}
