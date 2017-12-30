@@ -6,8 +6,12 @@ const nodemailer = require('nodemailer');
 
 
 
-router.get('/', function (req, res, next) {
+router.get('/registration', function (req, res, next) {
     res.render('pages/contact', {});
+});
+
+router.get('/', function (req, res, next) {
+    res.render('pages/welcome', {});
 });
 
 // router.get('/parishes/:state', async(req, res, next) => {
@@ -84,7 +88,7 @@ router.get('/', function (req, res, next) {
 // POST http://localhost:8080/api/users
 // parameters sent with
 router.post('/mailpost', function (req, res) {
-    var fullName = req.body.fullName;
+    var fullName = 'Rutter Realty';
     var phoneNumber = req.body.phoneNumber;
     var email = req.body.email;
 
@@ -104,9 +108,9 @@ router.post('/mailpost', function (req, res) {
     // setup e-mail data with unicode symbols
     var mailOptions = {
         from: `${fullName} <${email}>`, // sender address
-        to: "jwin4740@gmail.com", // list of receivers
+        to: email, // list of receivers
         subject: "Contact form submitted", // Subject line
-        text: "yo whatup"
+        text: "<a>https://rutterrealtygc.kw.com/</a>"
     }
 
     // send mail with defined transport object

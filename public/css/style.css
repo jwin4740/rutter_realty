@@ -6,7 +6,7 @@ body {
     background-color: #f5f5f5;
 }
 
-#contactSection{
+#contactSection {
     clear: both;
     margin: 0 auto;
     width: 50%;
@@ -14,4 +14,29 @@ body {
     padding: 20px 30px;
     border-radius: 10px;
     box-shadow: 5px 5px lightgray;
+}
+
+.welcome {
+    width: 40%;
+    margin: 45px auto;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px lightgray;
+    font-size: 16px;
+}
+
+.intro{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.preface{
+    width: 100%;
+    margin: 15px 0px;
+    border-radius: 5px;
+}
+
+.innerBold{
+    font-weight: bolder;
 }

@@ -40,8 +40,8 @@
     "database": "marys_way"
   },
   "devserver": {
-    "username": "mway",
-    "password": "mway@uncC6a",
+    "username": "rrealty",
+    "password": "rrealty",
     "host": "173.230.140.34",
     "port": "3306",
     "dialect": "mysql",
