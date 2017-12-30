@@ -21,9 +21,9 @@
     width: 60px
 }
 
-body{
-    background-color: #CCCCCC;
-}
+/*body{*/
+    /*background-color: #CCCCCC;*/
+/*}*/
 
 .section .wizard-card{
     min-height: inherit;
@@ -517,7 +517,7 @@ body{
 }
 
 .navbar, .navbar.navbar-default {
-  background-color: #9c27b0;
+  /*background-color: #9c27b0;*/
   color: #FFFFFF;
 }
 
