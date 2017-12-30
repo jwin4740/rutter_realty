@@ -1,9 +1,20 @@
- <link href="css/demo.css" rel="stylesheet"/>
- <style>
-     div.navbar{
-         margin: 0px;
-     }
- </style>
+<link href="css/demo.css" rel="stylesheet"/>
+<link href="css/wizard.css" rel="stylesheet"/>
+<style>
+    div.navbar {
+        margin: 0px;
+    }
+
+    .wizard-container {
+        padding-top: 50px;
+        z-index: 3;
+    }
+
+    .wizard-card .wizard-header {
+        text-align: center;
+        padding: 25px 0 0px;
+    }
+</style>
 <div class="image-container set-full-height">
 
 
@@ -17,78 +28,152 @@
                         <form action="" method="">
                             <!--        You can switch " data-color="blue" "  with one of the next bright colors: "green", "orange", "red", "purple"             -->
 
+
+                            <div class="wizard-navigation">
+                                <ul>
+                                    <li><a href="#details" data-toggle="tab">Welcome</a></li>
+                                    <li><a href="#captain" data-toggle="tab">Decluttering</a></li>
+                                    <li><a href="#description" data-toggle="tab">Depersonalize</a></li>
+                                    <li><a href="#description" data-toggle="tab">Extra Details</a></li>
+                                    <li><a href="#description" data-toggle="tab">Extra Details</a></li>
+                                    <li><a href="#description" data-toggle="tab">Extra Details</a></li>
+                                </ul>
+                            </div>
                             <div class="wizard-header">
                                 <h3 class="wizard-title">
                                     Welcome and thanks for subscribing
                                 </h3>
-                                <h5>This information will let us know more about you.</h5>
+                                <h5>5 Critical Steps - Ryan Rutter</h5>
                             </div>
-                            <div class="wizard-navigation">
-                                <ul>
-                                    <li><a href="#details" data-toggle="tab">Welcome</a></li>
-                                    <li><a href="#captain" data-toggle="tab">Room Type</a></li>
-                                    <li><a href="#description" data-toggle="tab">Extra Details</a></li>
-                                    <li><a href="#description" data-toggle="tab">Extra Details</a></li>
-                                     <li><a href="#description" data-toggle="tab">Extra Details</a></li>
-                                     <li><a href="#description" data-toggle="tab">Extra Details</a></li>
-                                </ul>
-                            </div>
-
                             <div class="tab-content">
-
                                 <div class="tab-pane" id="details">
                                     <div class="row">
                                         <div class="col-sm-12">
-                                            <h4 class="info-text"> Let's start with the basic details.</h4>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="input-group">
-													<span class="input-group-addon">
-														<i class="material-icons">email</i>
-													</span>
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Your Email</label>
-                                                    <input name="name" type="text" class="form-control">
-                                                </div>
-                                            </div>
+                                            <section class="welcome">
+                                                <div class="intro">
+                                                    <img class="preface" src="images/preface.jpg">
 
-                                            <div class="input-group">
-													<span class="input-group-addon">
-														<i class="material-icons">lock_outline</i>
-													</span>
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Your Password</label>
-                                                    <input name="name2" type="password" class="form-control">
                                                 </div>
-                                            </div>
+                                                <h3>5 Critical Steps - Ryan Rutter</h3>
+                                                <p>
+                                                    Throughout this series I will share five critical steps that are
+                                                    crucial when preparing your home for sale! This
+                                                    will help you <span class="innerBold">maximize your profit</span>
+                                                    and <span class="innerBold">sell your home faster.</span>
+                                                    I look forward to hearing about your progress and
+                                                    helping you with any questions you may have along the way. Feel free
+                                                    to call, text, or email me (information
+                                                    below).
+                                                </p>
 
+                                                <span class="innerBold">Preface:</span>
+                                                <p>
+                                                    What is staging? Staging involves presenting real estate
+                                                    specifically for the purpose of viewing so that it
+                                                    markets
+                                                    <span class="innerBold">the home </span>to appeal to the broadest
+                                                    possible audience of buyers.
+                                                </p>
+                                                <p>
+                                                    What is decorating? Decorating takes into account a person’s
+                                                    personal style, budget, lifestyle, criteria, and
+                                                    preferences for someone that is going to be living in the home.
+                                                </p>
+                                                <p>
+                                                    Don’t confuse decorating and staging. The goal is to present your
+                                                    home so that it appeals to the <span class="innerBold">broadest audience
+                                                    possible.</span> These steps will help you to prepare your home for
+                                                    sale in order to
+                                                    MAXIMIZE your profit and sell your home quicker. Everyone’s home and
+                                                    circumstances are different, which
+                                                    means that you will have to apply these steps
+                                                    to your own individual home according to your abilities and
+                                                    finances.
+                                                </p>
+                                                <p style="margin-bottom: 30px;">
+                                                    In these steps, we are focusing our efforts on <span
+                                                        class="innerBold">small fixes </span> that make <span
+                                                        class="innerBold">BIG impacts,</span> while letting the buyer
+                                                    remodel
+                                                    for themselves. Keep in mind that large projects typically don’t pay
+                                                    for themselves, allow for profit, and can
+                                                    turn
+                                                    into a large headache. Unless a large project makes financial sense,
+                                                    choose to focus on the small things. The
+                                                    first
+                                                    step to the series is DECLUTTERING, so lets get started and open the
+                                                    next email!
+                                                </p>
+
+                                                <div class="bottomDiv">
+                                                    <div class="row">
+                                                        <div class="col-lg-8">
+                                                            <img class="prefaceImage" src="images/ryancard.jpg">
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <p class="splitpar">
+                                                                Need a real estate agent near you? Let me refer you to a
+                                                                great agent that you can trust! I will be
+                                                                contacting you soon to see how it is going!
+                                                            </p>
+                                                            Peace and God bless,
+                                                            <br>
+                                                            <span class="innerBold">Ryan Rutter</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <hr>
+                                            </section>
                                         </div>
+                                        <!--<div class="col-sm-6">-->
+                                        <!--<div class="input-group">-->
+                                        <!--<span class="input-group-addon">-->
+                                        <!--<i class="material-icons">email</i>-->
+                                        <!--</span>-->
+                                        <!--<div class="form-group label-floating">-->
+                                        <!--<label class="control-label">Your Email</label>-->
+                                        <!--<input name="name" type="text" class="form-control">-->
+                                        <!--</div>-->
+                                        <!--</div>-->
+
+                                        <!--<div class="input-group">-->
+                                        <!--<span class="input-group-addon">-->
+                                        <!--<i class="material-icons">lock_outline</i>-->
+                                        <!--</span>-->
+                                        <!--<div class="form-group label-floating">-->
+                                        <!--<label class="control-label">Your Password</label>-->
+                                        <!--<input name="name2" type="password" class="form-control">-->
+                                        <!--</div>-->
+                                        <!--</div>-->
+
+                                        <!--</div>-->
                                         <div class="col-sm-6">
-                                            <div class="form-group label-floating">
-                                                <label class="control-label">Country</label>
-                                                <select class="form-control">
-                                                    <option disabled="" selected=""></option>
-                                                    <option value="Afghanistan"> Afghanistan</option>
-                                                    <option value="Albania"> Albania</option>
-                                                    <option value="Algeria"> Algeria</option>
-                                                    <option value="American Samoa"> American Samoa</option>
-                                                    <option value="Andorra"> Andorra</option>
-                                                    <option value="Angola"> Angola</option>
-                                                    <option value="Anguilla"> Anguilla</option>
-                                                    <option value="Antarctica"> Antarctica</option>
-                                                    <option value="...">...</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group label-floating">
-                                                <label class="control-label">Daily Budget</label>
-                                                <select class="form-control">
-                                                    <option disabled="" selected=""></option>
-                                                    <option value="Afghanistan"> < $100</option>
-                                                    <option value="Albania"> $100 - $499</option>
-                                                    <option value="Algeria"> $499 - $999</option>
-                                                    <option value="American Samoa"> $999+</option>
-                                                </select>
-                                            </div>
+                                            <!--<div class="form-group label-floating">-->
+                                                <!--<label class="control-label">Country</label>-->
+                                                <!--<select class="form-control">-->
+                                                    <!--<option disabled="" selected=""></option>-->
+                                                    <!--<option value="Afghanistan"> Afghanistan</option>-->
+                                                    <!--<option value="Albania"> Albania</option>-->
+                                                    <!--<option value="Algeria"> Algeria</option>-->
+                                                    <!--<option value="American Samoa"> American Samoa</option>-->
+                                                    <!--<option value="Andorra"> Andorra</option>-->
+                                                    <!--<option value="Angola"> Angola</option>-->
+                                                    <!--<option value="Anguilla"> Anguilla</option>-->
+                                                    <!--<option value="Antarctica"> Antarctica</option>-->
+                                                    <!--<option value="...">...</option>-->
+                                                <!--</select>-->
+                                            <!--</div>-->
+                                            <!--<div class="form-group label-floating">-->
+                                                <!--<label class="control-label">Daily Budget</label>-->
+                                                <!--<select class="form-control">-->
+                                                    <!--<option disabled="" selected=""></option>-->
+                                                    <!--<option value="Afghanistan"> < $100</option>-->
+                                                    <!--<option value="Albania"> $100 - $499</option>-->
+                                                    <!--<option value="Algeria"> $499 - $999</option>-->
+                                                    <!--<option value="American Samoa"> $999+</option>-->
+                                                <!--</select>-->
+                                            <!--</div>-->
                                         </div>
                                     </div>
                                 </div>

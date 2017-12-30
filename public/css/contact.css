@@ -1,0 +1,10 @@
+
+#contactSection {
+    clear: both;
+    margin: 0 auto;
+    width: 50%;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px lightgray;
+}
