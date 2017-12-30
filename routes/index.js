@@ -10,6 +10,9 @@ router.get('/registration', function (req, res, next) {
     res.render('pages/contact', {});
 });
 
+router.get('/wizard', function (req, res, next) {
+    res.render('pages/wizard', {});
+});
 router.get('/', function (req, res, next) {
     res.render('pages/welcome', {});
 });
