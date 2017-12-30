@@ -62,6 +62,14 @@ body {
     padding: 5px 20px;
     font-weight: bolder;
 }
+.mybutton:hover {
+    font-size: 18px;
+    color: white;
+    background-color: #0bc9da;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: bolder;
+}
 
 #buttonBox {
     width: 40%;
