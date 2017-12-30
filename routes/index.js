@@ -10,7 +10,7 @@ router.get('/registration', function (req, res, next) {
     res.render('pages/contact', {});
 });
 
-router.get('/wizard', function (req, res, next) {
+router.get('/five_steps', function (req, res, next) {
     res.render('pages/wizard', {});
 });
 router.get('/', function (req, res, next) {
@@ -113,7 +113,7 @@ router.post('/mailpost', function (req, res) {
         from: `${fullName} <${email}>`, // sender address
         to: email, // list of receivers
         subject: "Contact form submitted", // Subject line
-        text: "<a>https://rutterrealtygc.kw.com/</a>"
+        text: "You can find your five steps at this website http://173.230.140.34:5000/five_steps"
     }
 
     // send mail with defined transport object
@@ -129,7 +129,7 @@ router.post('/mailpost', function (req, res) {
 
 
 
-    res.redirect("/");
+    res.redirect("/five_steps");
 
 
 });
