@@ -14,7 +14,7 @@ router.get('/five_steps', function (req, res, next) {
     res.render('pages/wizard', {});
 });
 router.get('/', function (req, res, next) {
-    res.render('pages/welcome', {});
+    res.redirect('/registration');
 });
 
 // router.get('/parishes/:state', async(req, res, next) => {
