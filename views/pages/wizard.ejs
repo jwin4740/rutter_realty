@@ -30,22 +30,22 @@
                             <!--        You can switch " data-color="blue" "  with one of the next bright colors: "green", "orange", "red", "purple"             -->
                             <div class="wizard-navigation">
                                 <ul>
-                                    <li>
+                                    <li class="pillItem">
                                         <a href="#Welcome" data-toggle="tab">Welcome</a>
                                     </li>
-                                    <li>
+                                    <li class="pillItem">
                                         <a href="#decluttering" data-toggle="tab">Decluttering</a>
                                     </li>
-                                    <li>
+                                    <li class="pillItem">
                                         <a href="#depersonalize" data-toggle="tab">Depersonalize</a>
                                     </li>
-                                    <li>
+                                    <li class="pillItem">
                                         <a href="#repair" data-toggle="tab">Repair/Upgrade/Update</a>
                                     </li>
-                                    <li>
+                                    <li class="pillItem">
                                         <a href="#cleaning" data-toggle="tab">Cleaning</a>
                                     </li>
-                                    <li>
+                                    <li class="pillItem">
                                         <a href="#staging" data-toggle="tab">Staging</a>
                                     </li>
                                 </ul>
@@ -307,7 +307,7 @@
 
                                     </div>
                                 </div>
-<!--enter next page here-->
+                                <!--enter next page here-->
                                 <div class="tab-pane" id="decluttering">
                                     <div class="wizard-header">
                                         <h3 class="wizard-title">
@@ -322,7 +322,9 @@
                                                     <img class="headImage" src="images/decluttering.jpg">
 
                                                 </div>
-                                                    <strong><h3 class="wizard-title">Critical Step #1 - Decluttering</h3></strong>
+                                                <strong>
+                                                    <h3 class="wizard-title">Critical Step #1 - Decluttering</h3>
+                                                </strong>
                                                 <p>
                                                     What is decluttering? To declutter is to remove unnecessary items from an untidy or overcrowded place.
                                                 </p>
@@ -381,11 +383,11 @@
                                                 <p style="margin-bottom: 30px;">
                                                     Here are some pictures that might help:
 
-                                                    <br>
-                                                    Notice all of the knick knacks on the counter and above cabinets, the multiple jars of oil, the green salt and pepper dish,
-                                                    tea pot, radio, and multiple items on the refrigerator. This is a very
-                                                    nice kitchen, but a home buyer might not be able to see the kitchen through
-                                                    all of the clutter.
+                                                    <br> Notice all of the knick knacks on the counter and above cabinets, the
+                                                    multiple jars of oil, the green salt and pepper dish, tea pot, radio,
+                                                    and multiple items on the refrigerator. This is a very nice kitchen,
+                                                    but a home buyer might not be able to see the kitchen through all of
+                                                    the clutter.
                                                 </p>
                                                 <img class="headImage" src="images/declutter1.png">
                                                 <p>
@@ -481,7 +483,7 @@
                                         </div>
                                     </div>
                                 </div>
-<!--enter next page here-->
+                                <!--enter next page here-->
                                 <div class="tab-pane" id="depersonalize">
                                     <div class="wizard-header">
                                         <h3 class="wizard-title">
@@ -513,8 +515,7 @@
                                                 family in that house, they need to be able to imagine their own family in
                                                 that house. Buyers are walking into a home for a
                                                 <strong>fresh start and clean slate. I would even say a dream life or fantasy.</strong>
-                                                By depersonalizing your home, you allow them to envision their lives in your
-                                                home.
+                                                By depersonalizing your home, you allow them to envision their lives in your home.
                                             </p>
                                             <p>
                                                 To protect your assets and depersonalize remove items such as these:
@@ -596,7 +597,7 @@
                                         <!--</div>-->
                                     </div>
                                 </div>
-<!--enter next page here-->
+                                <!--enter next page here-->
                                 <div class="tab-pane" id="repair">
                                     <div class="wizard-header">
                                         <h3 class="wizard-title">
@@ -628,8 +629,7 @@
                                                 family in that house, they need to be able to imagine their own family in
                                                 that house. Buyers are walking into a home for a
                                                 <strong>fresh start and clean slate. I would even say a dream life or fantasy.</strong>
-                                                By depersonalizing your home, you allow them to envision their lives in your
-                                                home.
+                                                By depersonalizing your home, you allow them to envision their lives in your home.
                                             </p>
                                             <p>
                                                 To protect your assets and depersonalize remove items such as these:
@@ -769,3 +769,15 @@
 
 <!--  More information about jquery.validate here: http://jqueryvalidation.org/	 -->
 <script src="js/jquery.validate.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".moving-tab").remove();
+    })
+
+    $(".pillItem").on("click", function () {
+    console.log(this);
+    $(this).css("border", "solid 5px yellow");
+    
+
+    });
+</script>
