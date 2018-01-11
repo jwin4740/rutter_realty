@@ -1,0 +1,5 @@
+TODO
+- fix scrolling issue
+- fix disappearing previous button
+- nav pills spacing
+- cropping images
