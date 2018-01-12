@@ -56,8 +56,9 @@
 }
 
 .pillItem.active {
-    background-color: red;
+    background-color: rgb(245, 76, 76);
     border-radius: 5px;
+        
 }
 
 .firstFlex {
