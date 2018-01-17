@@ -45,6 +45,7 @@
     margin: 10px auto;
     padding: 20px 30px;
     font-size: 16px;
+    
 }
 
 .buttonBoxleft {
@@ -56,8 +57,9 @@
 }
 
 .pillItem.active {
-    background-color: red;
+    background-color: rgb(255, 53, 53);
     border-radius: 5px;
+        
 }
 
 .firstFlex {
@@ -65,6 +67,8 @@
     width: 100%;
     flex-direction: row;
     justify-content: center;
+    background-color:rgb(168, 0, 0);
+    
 }
 
 .pillItem {
@@ -72,6 +76,7 @@
     padding: 5px 0px;
     display: flex;
     justify-content: space-around;
+    background-color:rgb(180, 0, 0);
    
    
 }
@@ -82,10 +87,12 @@
     flex-wrap: wrap;
     justify-content: center;
     font-size: 16px;
+    
     /* word-wrap: break-word; */
 }
 
 .nav-pills {
     padding: 10px;
     width: 100%;
+    
 }
