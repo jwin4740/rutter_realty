@@ -57,7 +57,6 @@ app.use(function (err, req, res, next) {
 });
 
 
-db.sequelize.sync().then(function () {
     /**
      * Listen on provided port, on all network interfaces.
      */
@@ -69,7 +68,7 @@ db.sequelize.sync().then(function () {
     });
 
 
-});
+
 
 
 // function sendTheMail() {
